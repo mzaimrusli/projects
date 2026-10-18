@@ -1,0 +1,12 @@
+[project]
+name = "sut-harness"
+version = "0.1.0"
+description = "Minimal host-to-SUT test automation harness"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sut_harness*"]
